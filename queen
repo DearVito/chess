@@ -1,0 +1,5 @@
+x, y, z, v = int(input()), int(input()), int(input()), int(input())
+if abs(x-z) == abs(y-v) or x==z or y==v:
+    print('YES')
+else:
+    print('NO')
